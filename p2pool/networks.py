@@ -61,7 +61,7 @@ nets = dict(
         PERSIST=True,
         WORKER_PORT=6544,
         ANNOUNCE_CHANNEL='#p2pool-bri',
-        BOOTSTRAP_ADDRS='p2pool.brightcoin.pw'.split(' '),
+        BOOTSTRAP_ADDRS='p2pool.brightcoin.pw explorer.brightcoin.pw'.split(' '),
 	VERSION_CHECK=lambda v: True,
         VERSION_WARNING=lambda v: 'Upgrade Brightcoin to >=0.8.5.1!' if v < 80501 else None,
     ),
